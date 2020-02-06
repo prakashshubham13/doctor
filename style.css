@@ -1,0 +1,537 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bitter', serif;
+    background-image: linear-gradient(to bottom ,rgba(206, 188, 188, 0.9),rgba(94, 174, 194, 0.9));
+   
+    
+}
+
+
+.main-heading{
+    
+    font-size: 40px;
+    font-weight: 100;
+
+padding: 120px;
+
+color: transparent;
+font-size: 100px;
+-webkit-text-stroke: 1px #F8F8F8;
+text-shadow: 7px 6px 9px rgb(38, 156, 185);
+}
+.main-heading2{
+    position: absolute;
+    
+    font-size: 190px;
+    font-weight: 200;
+left:20px;
+
+
+color: rgb(0, 0, 0);
+font-size: 100px;
+-webkit-text-stroke: 1px #F8F8F8;
+text-shadow: 7px 6px 9px rgb(38, 156, 185);
+}
+
+
+.main-heading:before{
+content: "WE CARE FOR U AND UR SMILE";
+animation: animate infinite 11s;
+}
+
+@keyframes animate{
+    0%{
+      content: "WE CARE FOR U AND UR SMILE";  
+    }
+    35%{
+        content: "AND WE ARE HERE ";
+    }
+    50%{
+        content: "FOR U";
+    }
+
+    75%{
+        content: "AT YOUR DOORSTEP";
+    }
+    100%{
+        content: "WE'LL MANAGE IT FOR YOU";
+    }
+}
+
+
+
+.icon{
+position: fixed;
+top:30%;
+left:0%;
+width: 200px;
+display: flex;
+flex-direction: column;
+z-index: 2;
+
+}
+
+
+
+.iconn{
+    position: fixed;
+    top:50%;
+    right:0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    
+    }
+
+
+    .iconn a{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 7px;
+        font-size: 18px;
+        margin: 2px;
+        text-align: left;
+        border-radius: 50px 0px 0px 50px;
+        transform: translate(130px,0px);
+        transition: all 0.5s;
+    
+    }
+.icon a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px;
+    font-size: 18px;
+    margin: 2px;
+    text-align: right;
+    border-radius: 0px 50px 50px 0px;
+    transform: translate(-130px,0px);
+    transition: all 0.5s;
+
+}
+.iconn a:hover{
+    transform: translate(0px,0px);
+}
+
+.iconn a:hover i{
+    transform: rotate(360deg);
+}
+
+.icon a:hover{
+    transform: translate(0px,0px);
+}
+
+.icon a:hover i{
+    transform: rotate(360deg);
+}
+.home{
+    
+    background-color:rgba(187, 238, 2, 0.801);
+    color:white;
+}
+
+.facebook{
+    background-color: rgb(23, 107, 185);
+    color:white;
+}
+
+.instagram{
+    background-color: rgb(157, 18, 212);
+    color:white;
+}
+
+.twitter{
+    background-color: rgb(26, 175, 224);
+    color:white;
+}
+.whatsapp{
+    background-color: rgb(17, 226, 44);
+    color: white;
+}
+.sms{
+    background-color: rgb(209, 122, 22);
+    color: white;
+}
+
+.icon a i{
+    margin-left: 20px;
+    background-color: whitesmoke;
+  
+    color: black;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 1s;
+    
+}
+
+.iconn a i{
+    margin-left: 20px;
+    background-color: whitesmoke;
+  
+    color: black;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 1s;
+    
+}
+.iconn a i.fa-home{
+    color: rgba(204, 238, 10, 0.801);
+
+}
+
+
+.icon a i.fa-facebook{
+    color: rgb(23, 107, 185);
+
+}
+
+.icon a i.fa-instagram{
+    color: rgb(157, 18, 212);
+
+}
+
+.icon a i.fa-twitter{
+    color: rgb(26, 175, 224);
+
+}
+
+
+.icon a i.fa-whatsapp{
+    color: rgb(17, 226, 44);
+
+}
+.icon a i.fa-sms{
+    color:  rgb(209, 122, 22);
+
+}
+
+
+
+.example
+{
+ display: grid;
+ grid-template-columns: 30% 40% 30%;
+
+ grid-gap:10px;
+ background-color: rgb(0, 0, 0);
+ padding: 10px;
+}
+.example >div{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 40px;
+    padding:20px;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item5{
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.item7{
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.item6{
+grid-row-start: 3;
+grid-row-end: 6;
+}
+.example >div:hover
+{
+    box-shadow: 10px 10px black;
+    background-color: rgb(14, 218, 218);
+    transform: scale(1.2);
+}
+
+
+.gall{
+    text-align: center;
+    font-size: 40px;
+    
+
+
+color: rgb(0, 0, 0);
+color:rgb(50, 24, 110);
+-webkit-text-stroke: 1px rgb(41, 15, 15);
+text-shadow: 7px 6px 9px rgb(0, 0, 0);
+}
+
+.gall:hover{
+    transform: skewX(20deg);
+    text-shadow:0 15px 10px rgba(0, 0, 0, 0.8);
+}
+
+.heading{
+    background-image: url(he.png);
+    height: 200vh;
+    background-size:cover ;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 49% 100%, 24% 75%, 0% 75%);
+    background-repeat:no-repeat ;
+    box-shadow: 10px 40px black;
+}
+.r1{
+    border-radius: 50%;
+    box-shadow: 5px solid black;
+    text-align: center;
+    bottom: 0%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    z-index: 2;
+    
+}
+.r1 :hover .overlay{
+    opacity: 1;
+}
+
+
+
+
+.containerr {
+    position: absolute;
+    width: 50%;
+    top: 700px;
+    left:36%;
+  }
+  
+  .image {
+      position: relative;
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow:0px 25px 16px 10px rgb(51, 49, 49);
+    text-align: center;
+
+  }
+  
+  .overlay {
+    position: absolute;
+
+    
+    opacity: 0;
+    transition: .5s ease;
+    background-color:transparent;
+  }
+  
+  .containerr:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:whitesmoke;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 200;
+    text-shadow:10px 25px 10px rgb(26, 11, 11);
+  }
+  .containerr:hover{
+    transform: scale(1.2);
+  }
+
+
+
+  
+.container
+{
+width:90%;
+margin:0 ;
+font-size:40px;
+text-decoration:none;
+display: inline;
+}
+.brand{
+    font-weight:300;
+    color:rgb(47, 255, 227);
+    font-size:55px;
+    text-decoration: none;
+    
+}
+.brand span{
+    color: rgb(61, 16, 16);
+}
+nav{
+    padding-top:2px;
+align-items:center;
+justify-content:space-between;
+display:flex;
+font-size:30px;
+}
+nav ul{
+    display:flex;
+    letter-spacing:4px;
+}
+nav ul li{
+    letter-spacing:4px;
+    list-style: none;
+    float:left;
+}
+nav ul li a{
+    margin:0;
+    position:relative;
+    padding: 15px 18px;
+    
+    text-decoration:none;
+}
+nav ul li a:last-child{
+    margin-right: 0; 
+}
+
+
+a:hover{
+    color: rgb(6, 24, 85);
+    text-decoration: none;
+    box-shadow: 10px 10px 10px black;
+    transform: scale(3.5);
+    
+}
+/*
+
+
+*/
+a:active{
+    color: rgb(97, 28, 42);
+}
+
+
+a:link{
+    color: rgb(10, 105, 134);
+    text-decoration: none;
+    }
+
+.about{
+    text-align: right;
+    padding: 20px;
+    box-shadow: 10px 15px rgb(0, 0, 0);
+    text-shadow: 4px 0px rgb(36, 126, 138);
+    background-color: cornflowerblue;
+    clip-path: 10px;
+    color:rgb(50, 24, 110);
+
+
+
+    
+
+}
+.aboutt{
+    text-align: center;
+
+
+}
+.abo{
+    background-color: cornflowerblue;
+    box-shadow: 10px 15px black;
+    color: rgb(0, 0, 0);
+    width:50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+
+
+    
+font-weight: 300px;
+}
+.about:hover{
+
+    color: rgb(6, 24, 85);
+    text-decoration: none;
+    box-shadow: 10px 10px blue;
+    
+}
+.abo:hover{
+
+    color: rgb(6, 24, 85);
+    text-decoration: none;
+    box-shadow: 10px 10px blue;
+    
+}
+
+.services{
+    position: relative;
+    box-shadow: 10px 15px rgb(0, 0, 0);
+    
+    background-color: cornflowerblue;
+    width: 60%;
+display: flex;
+justify-content: center;
+padding: 50px;
+left:20%;
+}
+
+.ser{
+    padding: 20px;
+    text-align: center;
+    color:rgb(50, 24, 110);
+}
+
+.services:hover{
+
+        color: rgb(6, 24, 85);
+        text-decoration: none;
+        box-shadow: 10px 10px blue;
+        
+}
+
+.contact{
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+}
+
+.co{
+    background-color:cornflowerblue ;
+    color: rgb(6, 24, 85) ;
+    box-shadow:10px 10px rgb(0, 0, 0);
+
+}
+.se{
+    padding: 10%;
+}
+
+.logo{
+   
+    z-index: 6px;
+    width: 100px;
+    height: 100px;
+    float:right;
+    
+    border-radius: 40px;
+    box-shadow: 0px 20px 6px 0px rgb(32, 11, 32);
+
+}
+
+
+
+.logo:hover{
+    transform: scale(1.5);
+}
+
+
+.xx{
+padding: 60px;
+}
