@@ -477,7 +477,7 @@ color:black;
   width: 100%;
   height: 70%;
 
-}  
+}
 
     </style>
         <script src="https://kit.fontawesome.com/8893b709f5.js" crossorigin="anonymous"></script>
@@ -502,7 +502,6 @@ color:black;
       <h3 >FIND US ON</h3>
         <div class="social" data-aos="fade-right">
            <a href="https://www.facebook.com/shubham.prakash.7503" class="facebook"><i class="fab fa-facebook"></i></a>
-           <a href="https://www.instagram.com/xm_shubham/"><i class="fab fa-instagram"></i></a>
            <a href="https://wa.me/+918658034359" class="twitter"><i class="fab fa-whatsapp"></i></a>
          </div>  
         
@@ -510,14 +509,17 @@ color:black;
 </div>
            
             </div>
-<div id="overlay">
+            <div id="overlay">
           
               <div class="sdf">
                 <button class="si" onclick="off()">close</button>
                 <img src="2.png" alt="" style="overflow: hidden;width: 100%;height: 100%;"> 
               </div>
              
-            
+              
+              
+            </div>
+           
             <div class="tab" data-aos="fade-left">
               <button class="tablinks" onclick="openCity(event, 'London')">ABOUT</button>
               <button class="tablinks" onclick="openCity(event, 'Paris')">SERVICES</button>
@@ -528,8 +530,8 @@ color:black;
             
             <div id="London" class="tabcontent">
               <h2>ABOUT US</h2>
-               <button class="si" onclick="on()" style="background: transparent;border-radius: 0%;color: whitesmoke;">CLICK TO ZOOM</button>
-                    
+            
+              <button class="si" onclick="on()" style="background: transparent;border-radius: 0%;color: whitesmoke;">CLICK TO ZOOM</button>
             <img src="2.png" alt="" style="overflow: hidden;width: 100%;height: 100%;"> 
             </div>
             
@@ -629,7 +631,7 @@ color:black;
               </div>
             </div>
            
-               <div id="Pari" class="tabcontent">
+            <div id="Pari" class="tabcontent">
               <br><br>
               <h2>CONTACT US</h2>
             
@@ -661,8 +663,9 @@ color:black;
           document.getElementById(cityName).style.display = "block";
           evt.currentTarget.className += " active";
         }
-        
-          function on() {
+
+
+        function on() {
     document.getElementById("overlay").style.display = "block";
   }
   
